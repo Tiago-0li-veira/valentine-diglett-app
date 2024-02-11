@@ -1,0 +1,85 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("images/love-bg.jpg");
+    background-repeat: repeat;
+    background-size: 30dvh;
+    overflow: hidden;
+}
+
+.container1{
+    margin: 3dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 44dvh;
+    position: relative;
+}
+
+.container2{
+    margin: 3dvh;
+    height: 44dvh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.diglett{
+    height: 30dvh;
+    display: block;
+}
+
+.anger{
+    height: 0dvh;
+    position: absolute;
+    top: 0.3dvh;
+    left: 52dvw;
+}
+
+.digGif{
+    border: 5px solid rgb(185, 5, 143);
+    border-radius: 50px;
+}
+
+.proposal{
+    width: fit-content;
+    padding: 2dvh 2dvw 2dvh 2dvw;
+    background-color: #ffd5fa;
+    border: 4px dashed rgb(185, 5, 143);
+    border-radius: 3dvw;
+    color: rgb(185, 5, 143);
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+
+.myBtn{
+    width: 20%;
+    height: 6dvh;
+    max-width: 125px;
+    min-width: fit-content;
+    font-family: 'Montserrat', system-ui;
+    font-size: larger;
+    font-weight: bold;
+    color: #ffd5fa;
+    background-color: rgb(185, 5, 143);
+    border: 5px solid hsla(307, 100%, 84%, 0.875);
+    border-radius: 10px;
+    box-shadow: black;
+    cursor: pointer;
+}
+
+.yesBtn{
+    position: absolute;
+    left: 20%;
+}
+
+.noBtn{
+    position: absolute;
+    right:20%;
+}
