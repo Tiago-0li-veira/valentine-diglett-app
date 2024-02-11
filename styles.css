@@ -31,6 +31,7 @@ body{
 .diglett{
     height: 30dvh;
     display: block;
+    z-index: -1;
 }
 
 .anger{
@@ -41,8 +42,10 @@ body{
 }
 
 .digGif{
+    height: 60dvw;
+    max-height: 40dvh;
     border: 5px solid rgb(185, 5, 143);
-    border-radius: 50px;
+    border-radius: 20px;
     display: none;
 }
 
@@ -60,9 +63,9 @@ body{
 }
 
 .myBtn{
-    width: 20%;
-    height: 6dvh;
-    max-width: 125px;
+    width: 30%;
+    height: 10dvh;
+    max-width: 200px;
     min-width: fit-content;
     font-family: 'Montserrat', system-ui;
     font-size: larger;
@@ -77,10 +80,10 @@ body{
 
 .yesBtn{
     position: absolute;
-    left: 20%;
+    left: 15%;
 }
 
 .noBtn{
     position: absolute;
-    right:20%;
+    right:15%;
 }
