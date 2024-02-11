@@ -79,7 +79,7 @@ window.addEventListener("DOMContentLoaded",() => {
                 anger.style.height = count + "dvh";
             }
             if(count == 15) {
-                diglett.src = "/images/sadDiglett.png";
+                diglett.src = "./images/sadDiglett.png";
                 anger.style.height = 0;
                 proposal.innerHTML = "PLEASE PLEASE PLEASE PLEASE PLEASE"
             }
@@ -91,7 +91,7 @@ window.addEventListener("DOMContentLoaded",() => {
     yesBtn.addEventListener("click",() => {
         anger.style.display = "none";
         proposal.innerHTML = "Yippee! See ya pookie! ^_____^";
-        diglett.src = "/images/diglett-love.png";
+        diglett.src = "./images/diglett-love.png";
         digGif.style.display = "block";
         digGif.play();
 
