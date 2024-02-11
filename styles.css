@@ -43,6 +43,7 @@ body{
 .digGif{
     border: 5px solid rgb(185, 5, 143);
     border-radius: 50px;
+    display: none;
 }
 
 .proposal{

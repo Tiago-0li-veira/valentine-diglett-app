@@ -92,7 +92,7 @@ window.addEventListener("DOMContentLoaded",() => {
         anger.style.display = "none";
         proposal.innerHTML = "Yippee! See ya pookie! ^_____^";
         diglett.src = "images/diglett-love.png";
-        digGif.style.height = "auto";
+        digGif.style.display = "block";
         digGif.play();
 
         // hide the 'Yes' button
